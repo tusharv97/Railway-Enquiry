@@ -1,7 +1,7 @@
  var app=angular.module("myapp",[])
         .controller("mycontroller",function($scope,$http){
             $scope.submitreq=function(){ 
-            var url="https://api.railwayapi.com/v2/pnr-status/pnr/"+$scope.pnr+"/apikey/dvkr6h08bb/";
+            var url="https://api.railwayapi.com/v2/pnr-status/pnr/"+$scope.pnr+"/apikey/<apikey>/";
             document.getElementById('res').style.display="none";
 			$http.get(url).then(function(response)
 			{ 
