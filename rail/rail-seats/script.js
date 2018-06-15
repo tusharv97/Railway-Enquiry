@@ -5,8 +5,8 @@
      var u1="https://api.railwayapi.com/v2/between/source/";
      var u2="/dest/";
      var u3="/date/";
-     var u4="/apikey/6j2lxp5khs";
-     $scope.api="/apikey/6j2lxp5khs";
+     var u4="/apikey/?apikey?";
+     $scope.api="/apikey/?apikey?";
      var url=u1+$scope.src+u2+$scope.dest+u3+$scope.dt+u4;
      document.getElementById('table1').style.display="none";
     document.getElementById('table2').style.display="none";	
